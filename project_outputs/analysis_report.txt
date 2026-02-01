@@ -1,0 +1,53 @@
+
+        Report for Hong Kong rental market analysis (1982-2024):
+        
+        Overview:
+        This project analyzes 40+ years of Hong Kong rental market data from
+        https://www.rvd.gov.hk/en/publications/property_market_statistics.html
+        The analysis covers rental trends, market segmentation, volatility, and affordability.
+
+        Data summary:
+        • Time period: January 1982 to November 2009
+        • Data points: 335 monthly observations
+        • Property classes analyzed: 5 (A: <40m², B: 40-69.9m², C: 70-99.9m², 
+          D: 100-159.9m², E: ≥160m²)
+        • Districts: Hong Kong Island, Kowloon, New Territories
+        
+         Key Findings:
+        1. Market Growth: Rental prices increased by 97.9% 
+           overall since 1982.
+        
+        2. Class Performance:
+           • Class A (<40 m²): 160.9% growth
+   • Class B (40-70 m²): 131.1% growth
+   • Class C (70-100 m²): 96.2% growth
+
+        3. Market Stability:
+           • Class_A: 10.1% annual volatility
+   • Class_B: 8.5% annual volatility
+   • Class_C: 12.7% annual volatility
+
+        4. Affordability: Rent-to-income ratio has increased by 
+           -100.0% since 1982, 
+           indicating decreasing housing affordability.
+        
+        Methods that were used:
+        - Data Source from Hong Kong Rating and Valuation Department
+        - Processing: Data cleaning, missing value imputation, feature engineering
+        - Time series analysis, correlation study, volatility measurement
+        - Visualization with Matplotlib and Seaborn for professional charts
+
+
+        The following files were generated as part of this project:
+        1. project_outputs/main_timeseries.png - Main rental trend chart
+        2. project_outputs/growth_comparison.png - Growth by property class
+        3. project_outputs/correlation_heatmap.png - Market correlation
+        4. project_outputs/volatility_chart.png - Price volatility
+        5. hk_rental_cleaned.csv - Processed dataset
+        
+        Conclusion:
+        The findings provide insights into Hong Kong's rental market dynamics over four decades, highlighting 
+        growth patterns, market segmentation, and affordability trends.
+        
+        Report generated: 2026-02-01 16:52:15
+        
